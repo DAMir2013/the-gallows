@@ -1,0 +1,46 @@
+#mainConteiner{
+    width: 800px;
+    height: 100%;
+    display: table;
+}
+
+#title, #image, #word, #description{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+#description{
+    border: 2px solid black;
+}
+#title{
+    height: 50px;
+}
+#image{
+    height: 300px;
+}
+#word{
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+   
+}
+#description{
+    height: auto;
+}
+.letter{
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+
+    
+}
+.buttonClass{
+    margin-left: 45%;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.637);
+}
